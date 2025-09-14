@@ -1,62 +1,38 @@
-🏦 Bank Management System (C++)
-📌 Overview
+# 🏦 Bank Management System (C++)
 
-This is a Bank Management System implemented in C++ using OOP concepts, File I/O, and Structs.
-It allows managing clients and users (employees/admins) with different permissions.
+## 📌 Overview
+This is a **Bank Management System** implemented in **C++** using **OOP concepts, File I/O, and Structs**.  
+It provides a complete system to manage **clients** and **users** (employees/admins) with access control and persistent storage.
 
-The system supports:
+---
 
-Client Management (Add, Delete, Update, Find, List).
+## ⚡ Features
 
-Transactions (Deposit, Withdraw, Show Balances).
+### 👤 Clients
+- ➕ Add New Clients  
+- 📋 List All Clients  
+- ✏️ Update Client Information  
+- ❌ Delete Client  
+- 🔍 Find Client by Account Number  
 
-User Management with Access Control (Admin only).
+### 💰 Transactions
+- 💵 Deposit to Client Account  
+- 💸 Withdraw from Client Account  
+- 📊 Show Total Balances (with summary)  
 
-File-based persistent storage (Clients.txt, Users.txt).
+### 👨‍💼 Users (Admin Only)
+- ➕ Add New Users  
+- 📋 List All Users  
+- ✏️ Update User Information  
+- ❌ Delete User  
+- 🔍 Find User by Username  
 
-⚡ Features
-👤 Clients
+### 🔐 Security & Permissions
+- 🔑 Users must **Login** with a valid username & password.  
+- 🔒 Each user has permissions to control access to menus:
+  - Manage Clients  
+  - Transactions  
+  - Manage Users  
+- 🚫 Unauthorized users see an **Access Denied** screen.  
 
-Add New Clients.
-
-List All Clients.
-
-Update Client Information.
-
-Delete Client.
-
-Find Client by Account Number.
-
-💰 Transactions
-
-Deposit to Client Account.
-
-Withdraw from Client Account.
-
-Show Total Balances (with summary).
-
-👨‍💼 Users
-
-Add New Users.
-
-List All Users.
-
-Update User Information.
-
-Delete User.
-
-Find User by Username.
-
-🔐 Security & Permissions
-
-Users must Login with a valid username & password.
-
-Each user has permissions to control access to menus:
-
-Manage Clients.
-
-Transactions.
-
-Manage Users.
-
-Access denied screen appears for unauthorized user
+---
