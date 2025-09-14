@@ -1,1 +1,1 @@
-| **Project 3.2 [Bank 1] (2nd Extension)** | Version 2.0 with advanced user management and enhanced transaction handling for real-world simulation.           | Role-based user permissions, input validation, persistent data storage. |
+| **Project 1.2 [Bank 1] (2nd Extension)** | Version 2.0 with advanced user management and enhanced transaction handling for real-world simulation.           | Role-based user permissions, input validation, persistent data storage. |
